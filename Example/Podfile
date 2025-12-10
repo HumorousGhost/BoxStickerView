@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BoxStickerView_Tests' do
+  pod 'BoxStickerView', :path => '../'
+  
+  
+end
