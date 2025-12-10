@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BoxStickerView'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A customizable sticker view component for iOS with drag, rotate, and scale gestures.'
 
 # This description is used to generate tags and improve search results.
@@ -27,10 +27,12 @@ or any application requiring image annotation capabilities.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'HumorousGhost' => 'superzhangliqun@gmail.com' }
-  s.source           = { :git => 'https://github.com/HumorousGhost/BoxStickerView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HumorousGhost/BoxStickerView.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+
+  s.swift_versions   = [5.0, 5.1, 5.2]
 
   s.source_files = 'BoxStickerView/Classes/**/*'
   
